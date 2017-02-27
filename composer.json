@@ -1,0 +1,9 @@
+{
+  "name": "zobaken/one-skeleton",
+  "description": "Skeleton app for zobaken/one framework",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "zobaken/one": "*"
+  }
+}
