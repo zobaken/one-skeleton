@@ -4,8 +4,8 @@
  * First argument is database config
  */
 
-require_once __DIR__ . '/../inc/init.php';
+require_once __DIR__ . '/../init.php';
 
-$dbConfig = empty($argv[1]) ? 'db' : $argv[1];
-$dbgen = new \Core\DbGenerator($dbConfig);
+$profile = empty($argv[1]) ? 'default' : $argv[1];
+$dbgen = new \Dal\ModelGenerator($profile);
 $dbgen->run();

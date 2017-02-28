@@ -1,6 +1,7 @@
 <?php
 
 namespace Ctl;
+use Model\Test;
 
 /**
  * Sample controller

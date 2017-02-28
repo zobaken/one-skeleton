@@ -1,0 +1,6 @@
+{
+  "environment": "dev",
+  "debug": true,
+  "root_url": "/one/",
+  "tmp_dir": "/tmp"
+}
