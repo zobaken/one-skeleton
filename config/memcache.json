@@ -1,5 +1,5 @@
 {
-  "host: "localhost",
+  "host": "localhost",
   "port": 11211,
-  "timeout: 10
+  "timeout": 10
 }

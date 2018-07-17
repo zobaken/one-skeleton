@@ -1,6 +1,7 @@
 {
   "environment": "dev",
   "debug": true,
-  "root_url": "/one/",
-  "tmp_dir": "/tmp"
+  "root_url": "/",
+  "tmp_dir": "/tmp",
+  "auto_routes": true
 }
