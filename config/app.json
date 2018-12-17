@@ -3,5 +3,6 @@
   "debug": true,
   "root_url": "/",
   "tmp_dir": "/tmp",
-  "auto_routes": true
+  "auto_routes": true,
+  "error_view": "service/error"
 }

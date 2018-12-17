@@ -1,15 +1,20 @@
 {
   "name": "zobaken/one-skeleton",
+  "version": "0.0.2",
   "description": "Skeleton app for zobaken/one framework",
   "type": "project",
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../one"
-    }
-  ],
+
   "require": {
-    "zobaken/one": "*"
+    "zobaken/daltron": "*",
+    "zobaken/one": "*",
+    "twig/twig": "^2.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Ctl\\": "src",
+      "Model\\": "src",
+      "Template\\": "src"
+    }
   }
 }

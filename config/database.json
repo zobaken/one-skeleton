@@ -1,9 +1,10 @@
 {
   "default": {
-    "host": "localhost",
-    "user": "root",
-    "password": "",
+    "host": "192.168.99.100",
+    "user": "test",
+    "password": "test",
     "dbname": "test",
-    "namespace": "Model"
+    "namespace": "Model",
+    "driver": "mysql"
   }
 }
