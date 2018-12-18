@@ -15,7 +15,7 @@ class Main extends \Core\Controller {
     function get() {
         $this->title = 'Sample page';
         $this->text = 'Hello world';
-        return $this->getPublicProperties();
+        return $this->getProperties();
     }
 
 }

@@ -1,10 +1,9 @@
 {
   "name": "zobaken/one-skeleton",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Skeleton app for zobaken/one framework",
   "type": "project",
   "license": "MIT",
-
   "require": {
     "zobaken/daltron": "*",
     "zobaken/one": "*",
