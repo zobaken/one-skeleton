@@ -1,7 +1,6 @@
 <?php
 
 namespace Ctl;
-use Model\Test;
 
 /**
  * Sample controller
@@ -15,7 +14,6 @@ class Main extends \Core\Controller {
     function get() {
         $this->title = 'Sample page';
         $this->text = 'Hello world';
-        return $this->getProperties();
     }
 
 }
