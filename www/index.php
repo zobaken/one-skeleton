@@ -6,7 +6,8 @@
 require_once __DIR__ . '/../init.php';
 
 try {
-    \Core\Router::dispatchHttp();
+    $router = new \Core\Router();
+    $router->dispatchHttp();
 } catch (Exception $e) {
     if (cfg()->debug && !($e instanceof \Core\PageNotFoundException)) {
         $error = $e->getMessage();

@@ -16,4 +16,9 @@ class Main extends \Core\Controller {
         $this->text = 'Hello world';
     }
 
+    function post() {
+        $this->title = 'Sample page';
+        $this->text = 'Hello world';
+    }
+
 }

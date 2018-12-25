@@ -1,3 +1,4 @@
 {
-  "/": "Main"
+  "/": "Main",
+  "entity/list/$": "Entity::list"
 }
